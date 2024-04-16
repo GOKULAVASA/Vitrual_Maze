@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+	
+<suite name="Suite">
+	<parameter name="browser" value="chrome">
+	
+  <test thread-count="5" name="DDT">
+    <classes>
+      <class name="TestClass.TC_DDT_SignUp_001"/>
+       <class name="TestClass.TC_SignIn_test_002"/>
+          <class name="TestClass.TC_SignInDDT_003"/>
+           <class name="TestClass.TC_SignInwithValidCredentials_004"/>
+            <class name="TestClass.TC_FP_visiblityCheck_001"/>
+              <class name="TestClass.TC_FP_ResetPageVerification_002"/>
+              <class name="TestClass.TC_FP_OTP_InputFeild_003"/>
+             <class name="TestClass.TC_SignUp_ValidCredentails"/>
+    </classes>
+  
+  <!-- Test -->
+  </test>
+	</parameter>
+</suite> <!-- Suite -->
+	

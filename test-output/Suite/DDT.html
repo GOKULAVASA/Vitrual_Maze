@@ -1,0 +1,340 @@
+<html>
+<head>
+<title>TestNG:  DDT</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>DDT</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>52/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 16 08:12:02 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>418 seconds (418375 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestClass.TC_SignInDDT_003.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_SignInDDT_003<br>Parameters: gokulavasanravi@gmail.com, 11</td>
+<td></td>
+<td>4</td>
+<td>TestClass.TC_SignInDDT_003@f5958c9</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: har, v@vvaxddnq.mailosaur.net, 11234, 12345678, 12345678</td>
+<td></td>
+<td>6</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: laaalaaa, , , sdfgrtyuytr, sdfgrtyuytr</td>
+<td></td>
+<td>3</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_SignInwithValidCredentials_004.ValidCredentials()'><b>ValidCredentials</b><br>Test class: TestClass.TC_SignInwithValidCredentials_004</td>
+<td></td>
+<td>0</td>
+<td>TestClass.TC_SignInwithValidCredentials_004@233795b6</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: , a@vvaxddnq.mailosaur.net, 1, 87654321, 87654321</td>
+<td></td>
+<td>1</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: , v@vvaxddnq.mailosaur.net, 11234, 44434567, 44434567</td>
+<td></td>
+<td>3</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: uiiuiuiu, , 234566, 12345678, 12345678</td>
+<td></td>
+<td>1</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: koo, aaaa@vvaxddnq.mailosaur.net, 8787676, sdfgrtyuytr, sdfgrtyuytr</td>
+<td></td>
+<td>4</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: why, a@vvaxddnq.mailosaur.net, 22345, 44434567, 44434567</td>
+<td></td>
+<td>4</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_SignInDDT_003.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_SignInDDT_003<br>Parameters: gokulavasanravi@gmail.com, 11</td>
+<td></td>
+<td>1</td>
+<td>TestClass.TC_SignInDDT_003@f5958c9</td></tr>
+<tr>
+<td title='TestClass.TC_FP_visiblityCheck_001.VisisblityTest()'><b>VisisblityTest</b><br>Test class: TestClass.TC_FP_visiblityCheck_001</td>
+<td></td>
+<td>0</td>
+<td>TestClass.TC_FP_visiblityCheck_001@3eb738bb</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: go, q@vvaxddnq.mailosaur.net, 6789, fghrty123, fghrty123</td>
+<td></td>
+<td>5</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_FP_OTP_InputFeild_003.OTP_inputFeild_Verification()'><b>OTP_inputFeild_Verification</b><br>Test class: TestClass.TC_FP_OTP_InputFeild_003</td>
+<td></td>
+<td>12</td>
+<td>TestClass.TC_FP_OTP_InputFeild_003@1e800aaa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: koa, abcc@vvaxddnq.mailosaur.net, 234566, 44434567, 44434567</td>
+<td></td>
+<td>4</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: maa, aaaa@vvaxddnq.mailosaur.net, , 8765432111, 8765432111</td>
+<td></td>
+<td>3</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: , v@vvaxddnq.mailosaur.net, 11234, 98765432, 98765432</td>
+<td></td>
+<td>3</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_SignInDDT_003.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_SignInDDT_003<br>Parameters: gokulavasanravi@gmail.com, </td>
+<td></td>
+<td>3</td>
+<td>TestClass.TC_SignInDDT_003@f5958c9</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: , aacqsw@vvaxddnq.mailosaur.net, 9089076789, 4443dd4567, 4443dd4567</td>
+<td></td>
+<td>1</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: hh, b@vvaxddnq.mailosaur.net, 23456, wds@1234, wds@1234</td>
+<td></td>
+<td>4</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: laa, awscd@vvaxddnq.mailosaur.net, 234566, gokula@123, gokula@123</td>
+<td></td>
+<td>5</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: 111111, a@vvaxddnq.mailosaur.net, 2345436, 34567891, 34567891</td>
+<td></td>
+<td>6</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_SignInDDT_003.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_SignInDDT_003<br>Parameters: gokulavasanravi@gmail.com, 88888888</td>
+<td></td>
+<td>4</td>
+<td>TestClass.TC_SignInDDT_003@f5958c9</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: aviii, b@vvaxddnq.mailosaur.net, 6789, 44434567, 44434567</td>
+<td></td>
+<td>4</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: gokulavasa, a@vvaxddnq.mailosaur.net, 123456, 98765432, 98765432</td>
+<td></td>
+<td>6</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: maaaana, aazsx@vvaxddnq.mailosaur.net, , , </td>
+<td></td>
+<td>1</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: abcc, w@vvaxddnq.mailosaur.net, 23456, fghrty123, fghrty123</td>
+<td></td>
+<td>3</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: , axcv@vvaxddnq.mailosaur.net, 23456789, 4443r457, 4443r457</td>
+<td></td>
+<td>3</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: gok, v@vvaxddnq.mailosaur.net, 11234, asdc34533, asdc34533</td>
+<td></td>
+<td>7</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_SignUp_ValidCredentails.ValidCredentailsSignUp()'><b>ValidCredentailsSignUp</b><br>Test class: TestClass.TC_SignUp_ValidCredentails</td>
+<td></td>
+<td>24</td>
+<td>TestClass.TC_SignUp_ValidCredentails@185a6e9</td></tr>
+<tr>
+<td title='TestClass.TC_SignInDDT_003.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_SignInDDT_003<br>Parameters: gkb@gmail.com, 11111111</td>
+<td></td>
+<td>31</td>
+<td>TestClass.TC_SignInDDT_003@f5958c9</td></tr>
+<tr>
+<td title='TestClass.TC_SignInDDT_003.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_SignInDDT_003<br>Parameters: gokulavasanravi@gmail.com, 88888888</td>
+<td></td>
+<td>3</td>
+<td>TestClass.TC_SignInDDT_003@f5958c9</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: haiii, v@vvaxddnq.mailosaur.net, 6789, 12345678, 12345678</td>
+<td></td>
+<td>4</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: har, y@vvaxddnq.mailosaur.net, 1111, gkggkgkgkg, gkggkgkgkg</td>
+<td></td>
+<td>3</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: gok, v@vvaxddnq.mailosaur.net, 11234, 333@@@@@@, 333@@@@@@</td>
+<td></td>
+<td>5</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.checkFormValidation()'><b>checkFormValidation</b><br>Test class: TestClass.TC_DDT_SignUp_001</td>
+<td></td>
+<td>0</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: mann, awscd@vvaxddnq.mailosaur.net, , 87654321, 87654321</td>
+<td></td>
+<td>4</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: , c@vvaxddnq.mailosaur.net, 111111, asdc34533, asdc34533</td>
+<td></td>
+<td>4</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: gaa, q@vvaxddnq.mailosaur.net, 6789, , </td>
+<td></td>
+<td>1</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: maa, x@vvaxddnq.mailosaur.net, 234566, 12345678, 12345678</td>
+<td></td>
+<td>4</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: kala, abcc@vvaxddnq.mailosaur.net, 23456, 444ff34567, 444ff34567</td>
+<td></td>
+<td>3</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: aviii, v@vvaxddnq.mailosaur.net, 11234, , </td>
+<td></td>
+<td>2</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: abc, b@vvaxddnq.mailosaur.net, 1234567, 12345678, 12345678</td>
+<td></td>
+<td>6</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_SignInDDT_003.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_SignInDDT_003<br>Parameters: gk@gmail.com, 111</td>
+<td></td>
+<td>33</td>
+<td>TestClass.TC_SignInDDT_003@f5958c9</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: abcc, w@vvaxddnq.mailosaur.net, 6789, 87654321, 87654321</td>
+<td></td>
+<td>4</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: muthuuuuu, , 1232123432, 4443dd4567, 4443dd4567</td>
+<td></td>
+<td>3</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: gok, x@vvaxddnq.mailosaur.net, 11, fghrty123, fghrty123</td>
+<td></td>
+<td>5</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: ma, aacqsw@vvaxddnq.mailosaur.net, 234566, , </td>
+<td></td>
+<td>4</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_SignIn_test_002.visibility_signBtn()'><b>visibility_signBtn</b><br>Test class: TestClass.TC_SignIn_test_002</td>
+<td></td>
+<td>0</td>
+<td>TestClass.TC_SignIn_test_002@77c2494c</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: abcc, v@vvaxddnq.mailosaur.net, 11234, 87654321, 87654321</td>
+<td></td>
+<td>3</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: wedf, aazsx@vvaxddnq.mailosaur.net, 234566, 55500000, 55500000</td>
+<td></td>
+<td>5</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_DDT_SignUp_001.SignUpDDTesting()'><b>SignUpDDTesting</b><br>Test class: TestClass.TC_DDT_SignUp_001<br>Parameters: nini, aaaa@vvaxddnq.mailosaur.net, 12345678, 444gg34567, 444gg34567</td>
+<td></td>
+<td>7</td>
+<td>TestClass.TC_DDT_SignUp_001@682b2fa</td></tr>
+<tr>
+<td title='TestClass.TC_FP_ResetPageVerification_002.PasswordResetPageVerification()'><b>PasswordResetPageVerification</b><br>Test class: TestClass.TC_FP_ResetPageVerification_002</td>
+<td></td>
+<td>6</td>
+<td>TestClass.TC_FP_ResetPageVerification_002@5bda8e08</td></tr>
+</table><p>
+</body>
+</html>
