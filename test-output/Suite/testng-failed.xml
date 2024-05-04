@@ -4,12 +4,12 @@
   <parameter name="browser" value="chrome"/>
   <test thread-count="5" name="DDT(failed)">
     <classes>
-      <class name="TestClass.TC_SignUp_ValidCredentails">
+      <class name="TestClass.ErrorMessageValidation">
         <methods>
-          <include name="ValidCredentailsSignUp"/>
+          <include name="ErrorValidationMessage"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- TestClass.TC_SignUp_ValidCredentails -->
+      </class> <!-- TestClass.ErrorMessageValidation -->
     </classes>
   </test> <!-- DDT(failed) -->
 </suite> <!-- Failed suite [Suite] -->

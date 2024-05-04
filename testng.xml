@@ -6,16 +6,17 @@
 	
   <test thread-count="5" name="DDT">
     <classes>
-      <class name="TestClass.TC_DDT_SignUp_001"/>
-       <class name="TestClass.TC_SignIn_test_002"/>
-          <class name="TestClass.TC_SignInDDT_003"/>
-           <class name="TestClass.TC_SignInwithValidCredentials_004"/>
-            <class name="TestClass.TC_FP_visiblityCheck_001"/>
-              <class name="TestClass.TC_FP_ResetPageVerification_002"/>
-              <class name="TestClass.TC_FP_OTP_InputFeild_003"/>
-             <class name="TestClass.TC_SignUp_ValidCredentails"/>
+      <!--class name="TestClass.TC_DDT_SignUp_001"/-->
+       <!--class name="TestClass.TC_SignUp_ValidCredentails"/-->
+       <!--class name="TestClass.TC_SignIn_test_002"/-->
+          <!--class name="TestClass.TC_SignInDDT_003"/-->
+           <!--class name="TestClass.TC_SignInwithValidCredentials_004"/-->
+            <!--class name="TestClass.TC_FP_visiblityCheck_001"/-->
+              <!--class name="TestClass.TC_FP_ResetPageVerification_002"/!-->
+              <!--class name="TestClass.TC_FP_OTP_InputFeild_003"/!-->
+             <class name="TestClass.ErrorMessageValidation"/>
     </classes>
-  
+   
   <!-- Test -->
   </test>
 	</parameter>

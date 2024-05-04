@@ -1,7 +1,5 @@
 package PageClass;
 
-import java.util.List;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -58,14 +56,19 @@ public SignUpPage(WebDriver remotedriver){
 	@FindBy(xpath="//div[@id='signupEmailError']")
 	WebElement SignUpEmailError;
 	
-	
+
+	@FindBy(xpath="//div[@id='signupPasswordError']")
+	WebElement PasswordErrorMessage;
 	
 
 			@FindBy(xpath="(//button[@class='Rectangle-8953-otp'])[1]")
 			WebElement otpverifybtn;
 			
 			
-
+			public WebElement SignUppasswordError() {
+				return PasswordErrorMessage;
+			}
+			
 			public WebElement SignUpEmailError() {
 				return SignUpEmailError;
 			}
